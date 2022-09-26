@@ -1,0 +1,30 @@
+@charset "UTF-8";
+form{
+    background-color: #ccc;
+    padding:  10px;
+    margin: 0 auto;
+    width: 300px;
+}
+.login-container{
+    border: 3px solid #f1f1f1;
+    padding: 16px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 1px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+input[type=submit]{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
