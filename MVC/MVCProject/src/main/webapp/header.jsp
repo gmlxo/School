@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="tsxt/css" href="<%=request.getContextPath()%>/css/style.css?ver=1">
 </head>
 <body>
 	<header>
