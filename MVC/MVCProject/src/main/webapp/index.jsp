@@ -14,7 +14,7 @@
                 3. 회원목록 조회 프로그램을 작성한다. <br>
                 4. 회원정보 삭제 프로그램을 작성한다. <br>
             </p>
-        </div>		
+        </div>
 	</section>
 
 <%@ include file="footer.jsp" %>

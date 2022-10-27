@@ -5,7 +5,7 @@
 	<section>
 		<form action="./memberInsert" method="post">
 			userID : <input type="text" name="userid">
-			userPW : <input type="text" name="username">
+			userName : <input type="text" name="username">
 			<button type="submit"> 등록 </button>
 		</form>
 	</section>

@@ -13,11 +13,11 @@
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach var="item" items="${list}">
+				<c:forEach var="item" items="${memberList}">
 				<tr>
-					<td>${item.userId}</td>
-					<td>${item.userName}</td>
-					<td><a class="del" href="${pageContext.request.contextPath}/memberDelete?userid=${item.userId}">홈으로</a></td>
+					<td>${item.userid}</td>
+					<td>${item.username}</td>
+					<td><a class="del" href="${pageContext.request.contextPath}/memberDelete?userId=${item.userid}">삭제 </a></td>
 				</tr>
 				</c:forEach>
 				</tbody>

@@ -23,7 +23,7 @@ public class MemberDAO {
 		
 		conn = JdbcUtil.getConnection();
 		try {
-			pstmt = conn.prepareStatement("select userid, username from member_mvc order by userid");
+			pstmt = conn.prepareStatement("select userid, username from member_mvc ORDER by userid");
 			rs = pstmt.executeQuery();
 			
 			while (rs.next()) {

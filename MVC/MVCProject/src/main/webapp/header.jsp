@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="tsxt/css" href="<%=request.getContextPath()%>/css/style.css?ver=1">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/style.css?ver=1">
 </head>
 <body>
 	<header>
@@ -14,7 +14,7 @@
 	<nav>
 		<ul>
 			<li><a href="${pageContext.request.contextPath}/memberInsert.jsp">회원 등록</a></li>
-            <li><a href="${pageContext.request.contextPath}/memberList.jsp">회원 목록</a></li>
+            <li><a href="${pageContext.request.contextPath}/memberList">회원 목록</a></li>
             <li><a href="${pageContext.request.contextPath}/projectArchitecture.jsp">프로젝트 구조</a></li>
 		</ul>
 	</nav>
