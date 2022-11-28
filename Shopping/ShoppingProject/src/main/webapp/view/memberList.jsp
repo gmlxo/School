@@ -1,3 +1,4 @@
+<%@page import="vo.MemberVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -21,13 +22,13 @@
 			for(MemberVO vo : list){
 %>
 			<tr>
-				<td><a href="<%= request.getContextPath() %>/member/updateForm?custno=<%= vo.getCutno() %>"><%= vo.getCutno() %></a></td>
-				<td><%= vo.getCustname %></td>
-				<td><%= vo.getPhone %></td>
-				<td><%= vo.getAddress %></td>
-				<td><%= vo.getJoindate %></td>
-				<td><%= vo.getGrade %></td>
-				<td><%= vo.getCity %></td>
+				<td><a href="<%= request.getContextPath() %>/member/updateForm?custno=<%= vo.getCustno() %>"> <%= vo.getCustno() %> </a></td>
+				<td><%= vo.getCustname() %></td>
+				<td><%= vo.getPhone() %></td>
+				<td><%= vo.getAddress() %></td>
+				<td><%= vo.getJoindate() %></td>
+				<td><%= vo.getGrade() %></td>
+				<td><%= vo.getCity() %></td>
 			</tr>
 <%
 			}
